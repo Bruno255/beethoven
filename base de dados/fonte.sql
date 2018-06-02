@@ -1,4 +1,4 @@
-CREATE TABLE Pessoa(
+CREATE TABLE Pessoa (
     pessoa_id INT         AUTO_INCREMENT,
     acesso    CHAR(1)     NOT NULL,
     celular   VARCHAR(16) NOT NULL,
@@ -12,7 +12,7 @@ CREATE TABLE Pessoa(
     CONSTRAINT PK_pessoa PRIMARY KEY (pessoa_id)
 );
 
-CREATE TABLE Aluno(
+CREATE TABLE Aluno (
     aluno_id       INT        AUTO_INCREMENT,
     cursando       BIT        DEFAULT 1,
     data_matricula DATE       NOT NULL,
@@ -22,7 +22,7 @@ CREATE TABLE Aluno(
     CONSTRAINT FK_aluno_pessoa FOREIGN KEY (aluno_id) REFERENCES Pessoa(pessoa_id)
 );
 
-CREATE TABLE Colab(
+CREATE TABLE Colab (
     colab_id      INT         AUTO_INCREMENT,
     data_admissao DATE        NOT NULL,
     profissao     VARCHAR(32) NOT NULL,
@@ -32,7 +32,7 @@ CREATE TABLE Colab(
     CONSTRAINT FK_colab_pessoa FOREIGN KEY (colab_id) REFERENCES Pessoa(pessoa_id)
 );
 
-CREATE TABLE Curso(
+CREATE TABLE Curso (
     curso_id      INT         AUTO_INCREMENT,
     carga_horaria INT         NOT NULL,
     instrumento   VARCHAR(16) NOT NULL,
@@ -41,7 +41,7 @@ CREATE TABLE Curso(
     CONSTRAINT PK_curso PRIMARY KEY (curso_id)
 );
 
-CREATE TABLE Aula(
+CREATE TABLE Aula (
     aula_id         INT         AUTO_INCREMENT,
     curso_id        INT         NOT NULL,
     professor_id    INT         NOT NULL,
@@ -52,7 +52,7 @@ CREATE TABLE Aula(
     CONSTRAINT FK_aula_curso FOREIGN KEY (curso_id) REFERENCES Curso(curso_id)
 );
 
-CREATE TABLE Evento(
+CREATE TABLE Evento (
     evento_id       INT          AUTO_INCREMENT,
     resp_id         INT          NOT NULL,
     data_realizacao DATE         NOT NULL,
@@ -66,7 +66,7 @@ CREATE TABLE Evento(
     CONSTRAINT FK_resp_colab FOREIGN KEY (resp_id) REFERENCES Colab(colab_id)
 );
 
-CREATE TABLE Mensagem(
+CREATE TABLE Mensagem (
     mensagem_id   INT  AUTO_INCREMENT,
     dest_id       INT  NOT NULL,
     remet_id      INT  NOT NULL,
