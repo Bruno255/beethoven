@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cnL_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0064FA"
+    tools:context="cmb.beethovenapp.InfoActivity">
+
+    <LinearLayout
+        android:id="@+id/lnL_linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txV_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Sua Informações"
+            android:textAlignment="center"
+            android:textColor="#FAFAFA"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txV_label01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CPF:"
+            android:textAlignment="center"
+            android:textColor="#FAFAFA"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txV_cpf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="[ cpf do usuário ]"
+            android:textAlignment="center"
+            android:textColor="#FAFAFA"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txV_label02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome:"
+            android:textAlignment="center"
+            android:textColor="#FAFAFA"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txV_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="[ nome do usuário ]"
+            android:textAlignment="center"
+            android:textColor="#FAFAFA"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txV_label03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Número da Matrícula:"
+            android:textAlignment="center"
+            android:textColor="#FAFAFA"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txV_matricula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="[ número da matrícula ]"
+            android:textAlignment="center"
+            android:textColor="#FAFAFA"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txV_label04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data da Matrícula:"
+            android:textAlignment="center"
+            android:textColor="#FAFAFA"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txV_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="[ data da matrícula ]"
+            android:textAlignment="center"
+            android:textColor="#FAFAFA"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txV_label05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estado no Curso:"
+            android:textAlignment="center"
+            android:textColor="#FAFAFA"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txV_estado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="[ estado no curso ]"
+            android:textAlignment="center"
+            android:textColor="#FAFAFA"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
