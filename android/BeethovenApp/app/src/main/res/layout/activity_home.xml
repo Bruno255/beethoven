@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cnL_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:id="@+id/lnL_linear"
+        style="@style/home_linearLayout" >
+
+        <TextView
+            android:id="@+id/txV_nome"
+            style="@style/home_txV_nome"
+            android:text="Bem vindo, [ nome do aluno ]" />
+
+        <LinearLayout
+            android:id="@+id/lnL_evento"
+            style="@style/home_lnL_evento">
+
+            <TextView
+                android:id="@+id/txV_evento"
+                style="@style/home_txV_evento"
+                android:text="[ título do evento ]"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txV_descricao"
+                style="@style/home_txV_evento"
+                android:paddingStart="10dp"
+                android:text="[ descrição do evento ]"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txV_data"
+                style="@style/home_txV_evento"
+                android:text="[ data do evento ]"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_info"
+            style="@style/home_button"
+            android:text="Informações" />
+
+        <Button
+            android:id="@+id/btn_anotacao"
+            style="@style/home_button"
+            android:text="Anotações" />
+
+        <Button
+            android:id="@+id/btn_boletim"
+            style="@style/home_button"
+            android:text="Boletim" />
+
+        <Button
+            android:id="@+id/btn_comun"
+            style="@style/home_button"
+            android:text="Comunicação" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

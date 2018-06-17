@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cnL_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".InfoActivity">
+
+    <TextView
+        android:id="@+id/txV_info"
+        style="@style/info_txV_info"
+        android:text="Suas informações de matrícula" />
+
+    <LinearLayout
+        android:id="@+id/lnL_linear"
+        style="@style/info_linearLayout">
+
+        <TextView
+            android:id="@+id/txV_matricula"
+            style="@style/info_textView"
+            android:text="Número de matrícula: [ valor ]" />
+
+        <TextView
+            android:id="@+id/txV_data"
+            style="@style/info_textView"
+            android:text="Data de matrícula: [ valor ]" />
+
+        <TextView
+            android:id="@+id/txV_estado"
+            style="@style/info_textView"
+            android:text="Estado do curso: [ valor ]" />
+
+        <TextView
+            android:id="@+id/txV_cpf"
+            style="@style/info_textView"
+            android:text="Seu CPF: [ valor ]" />
+
+        <TextView
+            android:id="@+id/txV_nome"
+            style="@style/info_textView"
+            android:text="Seu usuário: [ valor ]" />
+
+        <TextView
+            android:id="@+id/txV_email"
+            style="@style/info_textView"
+            android:text="E-mail cadastrado: [ valor ]" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

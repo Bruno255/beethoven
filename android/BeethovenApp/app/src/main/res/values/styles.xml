@@ -1,0 +1,123 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- estilos da activity LoginActivity -->
+    <style name="login_linearLayout">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="login_imageView">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_width">200dp</item>
+    </style>
+
+    <style name="login_editText">
+        <item name="android:backgroundTint">#FAFAFA</item>
+        <item name="android:ems">10</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_width">280dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">#FAFAFA</item>
+        <item name="android:textColorHint">#FAFAFA</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="login_button">
+        <item name="android:background">#AA000000</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:textColor">#FAFAFA</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- estilos da activity HomeActivity -->
+    <style name="home_linearLayout">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="home_txV_nome">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_width">340dp</item>
+        <item name="android:textColor">#FAFAFA</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="home_lnL_evento">
+        <item name="android:background">#AA000000</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">185dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_width">300dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="home_txV_evento">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">#FAFAFA</item>
+    </style>
+
+    <style name="home_button">
+        <item name="android:background">#AAFFFFFF</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_width">160dp</item>
+        <item name="android:textColor">#323232</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- estilos da activity InfoActivity -->
+    <style name="info_linearLayout">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="info_txV_info">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">#FAFAFA</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="info_textView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:textColor">#FAFAFA</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
