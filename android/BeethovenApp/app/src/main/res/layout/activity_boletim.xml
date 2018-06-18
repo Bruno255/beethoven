@@ -10,4 +10,9 @@
     android:background="@drawable/background"
     tools:context=".BoletimActivity">
 
+    <LinearLayout
+        android:id="@+id/lnL_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"></LinearLayout>
 </android.support.constraint.ConstraintLayout>
