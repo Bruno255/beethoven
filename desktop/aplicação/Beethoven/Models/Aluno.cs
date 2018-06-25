@@ -8,7 +8,7 @@ namespace Beethoven.Models
     public class Aluno : Pessoa
     {
         // relacionamento
-        public virtual List<Botetim> Boletins { get; set; }
+        public virtual List<Boletim> Boletins { get; set; }
         // atributos
         bool Cursando { get; set; }
         DateTime Matricula { get; set; }

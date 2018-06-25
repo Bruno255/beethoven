@@ -9,7 +9,7 @@ namespace Beethoven.Models
     {
         // relacionamentos
         public virtual List<Aula> Aulas { get; set; }
-        public virtual List<Botetim> Boletins { get; set; }
+        public virtual List<Boletim> Boletins { get; set; }
         // chave
         public ushort Id { get; set; }
         // atributos

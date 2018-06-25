@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Beethoven.Models
 {
-    public class Botetim
+    public class Boletim
     {
         // relacionamentos
         public virtual Aluno Aluno { get; set; }
